@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%
+
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: 3px solid green;
+  font-size: 30px;
+  justify-content: center;
+}
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+
+}
+
+.hidden{
+  display: none;
+}
